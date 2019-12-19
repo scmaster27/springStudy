@@ -38,6 +38,9 @@ function memo_view(idx) {
 	</tr>
 </c:forEach>
 </table>
+<form method="post" action=${path}/memo/csvDownload.do>
+	<input type="submit" value="CSV出力">
+</form>
 
 </body>
 </html>
